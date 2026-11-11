@@ -153,6 +153,14 @@
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
+        <!-- Build credits -->
+        <Preference
+            android:key="build_credits"
+            android:order="44"
+            android:title="@string/build_credits_title"
+            android:summary="@string/build_credits_summary"
+            android:selectable="false"
+            settings:enableCopying="true"/>
     </PreferenceCategory>
 
     <PreferenceCategory
